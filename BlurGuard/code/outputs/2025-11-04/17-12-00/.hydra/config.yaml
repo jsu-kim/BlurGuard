@@ -1,0 +1,17 @@
+attack:
+  device: 0
+  epsilon: 16
+  g_mode: 'no'
+  img_path: ../../ImageNet-Edit
+  input_size: 512
+  learning_rate: 0.06
+  max_exp_num: 100
+  mode: pgd_freq
+  output_path: ../out/
+  eps_sigma: 0
+  steps: 150
+  use_wandb: false
+  using_target: false
+  sigma_weighting: 10
+  input_prompt: a photo
+  results_path: ../results/

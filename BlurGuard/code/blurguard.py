@@ -211,15 +211,8 @@ def main(cfg : DictConfig):
     sigma_weighting=args.sigma_weighting
     learning_rate=args.learning_rate
     input_prompt=args.input_prompt
-    if mode == "pgd_freq":
-        run_name = (
-            f"pgd_freq_"
-            f"epsS{eps_sigma}_"
-            f"steps{steps}_"
-            f"sW{sigma_weighting}_"
-            f"lr{learning_rate}"
-        )
-
+    
+    run_name = "BlurGuard"
         
     output_path, img_path,results_dir = args.output_path, args.img_path,args.results_path
     using_target = args.using_target

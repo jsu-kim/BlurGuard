@@ -2,7 +2,7 @@ attack:
   device: 0
   epsilon: 16
   g_mode: 'no'
-  img_path: ../test_images/to_protect/ 
+  img_path: ../../ImageNet-Edit
   input_size: 512
   learning_rate: 0.06
   max_exp_num: 100
